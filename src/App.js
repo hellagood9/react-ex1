@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 
-import BitcoinPrice from "./BitcoinPrice"
+import BitcoinPriceContainer from "./containers/BitcoinPriceContainer"
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
-      <BitcoinPrice />
+      <h1>Bitcoin index prices</h1>
+      <BitcoinPriceContainer />
     </div>
   );
 }
